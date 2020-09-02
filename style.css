@@ -54,7 +54,7 @@ body{
 }
 
 .draggable__content{
-    height: calc(100vh - 7.1rem);
+    height: calc(100vh - 13.1rem);
     overflow: auto;
 }
 
