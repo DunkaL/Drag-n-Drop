@@ -1,0 +1,76 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 0px #d4d4d4;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.draggable{
+    position: fixed;
+    height: 400px;
+    left: 0;
+    right: 0;
+    bottom: -350px !important;
+    top: auto !important;
+    background-color: #fff;
+    border-radius: 0;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    -webkit-box-shadow: 0 -1px 6px 0 rgba(0,0,0,0.25);
+    box-shadow: 0 -1px 6px 0 rgba(0,0,0,0.25);
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    padding: 0 10px 20px;
+}
+
+.draggable.open{
+    bottom: 0 !important;
+}
+
+
+.handle{
+    padding: 8px;
+}
+
+.draggable__item{
+    width: 60px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #bebebe;
+    margin: 0 auto;
+}
+
+.draggable__content{
+    height: calc(100vh - 190px);
+    overflow-y: auto;
+}
+
+.draggable__block{
+    padding: 6px;
+    background-color: #c1c1c1;
+    border-radius: 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.bottom-0{
+    bottom: 0 !important
+}
