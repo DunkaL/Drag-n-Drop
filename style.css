@@ -33,7 +33,7 @@ body{
     -webkit-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
-    padding: 0 10px 20px;
+    padding: 0 10px 10px;
 }
 
 .draggable.open{
@@ -54,7 +54,7 @@ body{
 }
 
 .draggable__content{
-    height: 300px;
+    height: calc(100vh - 7.1rem);
     overflow: auto;
 }
 
